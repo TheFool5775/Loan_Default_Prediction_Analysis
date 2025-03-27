@@ -3,6 +3,12 @@
 ## Overview
 This project aims to predict loan defaults based on various features of loan applicants using machine learning algorithms. By analyzing the dataset, we can identify key factors that contribute to loan defaults and develop predictive models that assist financial institutions in making informed lending decisions.
 
+## Key Features:
+Data Preprocessing: The project includes steps for handling missing values, outlier detection, and feature scaling to ensure the data is clean and suitable for modeling.
+Feature Engineering: Categorical variables are transformed using one-hot encoding, and new features such as the debt-to-income ratio are created to enhance model performance.
+Model Training: Multiple machine learning models are trained, including Logistic Regression, Decision Trees, Random Forests, Gradient Boosting, Support Vector Machines, and K-Nearest Neighbors.
+Model Evaluation: The performance of each model is evaluated using accuracy, classification reports, and confusion matrices to determine the best approach for predicting loan defaults.
+
 ## Dataset Description
 The dataset used in this project is `Loan_Default.csv`, which contains information about loan applicants and their loan statuses. The key features in the dataset include:
 
