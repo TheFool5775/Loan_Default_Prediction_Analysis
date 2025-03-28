@@ -33,6 +33,20 @@ To run this project, follow these steps:
    ```bash
    git clone https://github.com/yourusername/Loan_Default_Prediction.git
    cd Loan_Default_Prediction
+## Visualizations
+The project also includes visualizations to explore the loan default dataset and gain insights into the data. Key visualizations include:
+
+1.**Histograms**: To visualize the distribution of numerical features in the dataset.
+
+2.**Pie Charts for Categorical Variables**: To show the distribution of categories within categorical features.
+
+3.**Pie Chart for Customer Income Distribution**: To visualize the distribution of customer income in binned ranges.
+
+4.**Pie Chart for Loan Classification**: To illustrate the classification of loans into creditworthy and non-creditworthy categories.
+
+5.**Scatter Plots**: To explore relationships between pairs of numerical variables.
+
+6.**Correlation Heatmap**: To visualize the correlation between numerical features in the dataset.
 
 ## Model Training and Testing Overview
 In this project, we utilize various machine learning algorithms to predict loan defaults based on applicant features. The model training and testing process involves several key steps:
@@ -69,20 +83,6 @@ Confusion Matrix: A matrix that visualizes the performance of the model by showi
 ## Results Visualization:
 
 The accuracies of the different models are visualized using a bar chart, allowing for easy comparison of model performance. By following this structured approach to model training and testing, we aim to build robust predictive models that can effectively identify potential loan defaults based on applicant data.
-## Visualizations
-The project also includes visualizations to explore the loan default dataset and gain insights into the data. Key visualizations include:
-
-1.**Histograms**: To visualize the distribution of numerical features in the dataset.
-
-2.**Pie Charts for Categorical Variables**: To show the distribution of categories within categorical features.
-
-3.**Pie Chart for Customer Income Distribution**: To visualize the distribution of customer income in binned ranges.
-
-4.**Pie Chart for Loan Classification**: To illustrate the classification of loans into creditworthy and non-creditworthy categories.
-
-5.**Scatter Plots**: To explore relationships between pairs of numerical variables.
-
-6.**Correlation Heatmap**: To visualize the correlation between numerical features in the dataset.
 
 ## Conclusion
 The visualizations generated from this analysis provide valuable insights into the loan default dataset. They help in understanding the distribution of key features, the relationships between different variables, and the overall characteristics of the customer base. This analysis can serve as a foundation for further modeling and predictive analysis in the context of loan defaults.
