@@ -67,9 +67,13 @@ The accuracies of the different models are visualized using a bar chart, allowin
 The project also includes visualizations to explore the loan default dataset and gain insights into the data. Key visualizations include:
 
 1.**Histograms**: To visualize the distribution of numerical features in the dataset.
+
 2.**Pie Charts for Categorical Variables**: To show the distribution of categories within categorical features.
+
 3.**Pie Chart for Customer Income Distribution**: To visualize the distribution of customer income in binned ranges.
+
 4.**Pie Chart for Loan Classification**: To illustrate the classification of loans into creditworthy and non-creditworthy categories.
+
 5.**Scatter Plots**: To explore relationships between pairs of numerical variables.
 6.**Correlation Heatmap**: To visualize the correlation between numerical features in the dataset.
 ## Conclusion
