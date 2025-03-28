@@ -26,6 +26,14 @@ The dataset used in this project is `Loan_Default.csv`, which contains informati
 - **historical_default**: Historical default status of the applicant.
 - **cred_hist_length**: Length of credit history in months.
 
+## Data Preprocessing:
+
+1.**Handling Missing Values**: Missing values in the dataset are addressed using the SimpleImputer. For numerical features, missing values are replaced with the mean of the respective columns, ensuring that no data is lost during the training process.
+
+2.**Encoding Categorical Variables**: Categorical features are transformed into numerical format using one-hot encoding. This process creates binary columns for each category, allowing the models to interpret categorical data effectively.
+
+3.**Feature Scaling**: Numerical features are standardized using StandardScaler, which scales the data to have a mean of 0 and a standard deviation of 1. This step is crucial for algorithms sensitive to the scale of the data, such as Logistic Regression and Support Vector Machines.
+
 ## Installation Steps
 To run this project, follow these steps:
 
@@ -51,13 +59,7 @@ The project also includes visualizations to explore the loan default dataset and
 ## Model Training and Testing Overview
 In this project, we utilize various machine learning algorithms to predict loan defaults based on applicant features. The model training and testing process involves several key steps:
 
-## Data Preprocessing:
 
-1.**Handling Missing Values**: Missing values in the dataset are addressed using the SimpleImputer. For numerical features, missing values are replaced with the mean of the respective columns, ensuring that no data is lost during the training process.
-
-2.**Encoding Categorical Variables**: Categorical features are transformed into numerical format using one-hot encoding. This process creates binary columns for each category, allowing the models to interpret categorical data effectively.
-
-3.**Feature Scaling**: Numerical features are standardized using StandardScaler, which scales the data to have a mean of 0 and a standard deviation of 1. This step is crucial for algorithms sensitive to the scale of the data, such as Logistic Regression and Support Vector Machines.
 
 ## Train-Test Split:
 
