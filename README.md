@@ -50,9 +50,13 @@ The dataset is split into training and testing sets using train_test_split. Typi
 
 Multiple machine learning models are trained on the training dataset. The models included in this project are:
 1.**Decision Tree**: A non-linear model that splits the data based on feature values.
+
 2.**Random Forest**: An ensemble method that combines multiple decision trees to improve accuracy and reduce overfitting.
+
 3.**Gradient Boosting**: Another ensemble technique that builds trees sequentially to minimize errors.
+
 4.**Support Vector Machine (SVM)**: A model that finds the optimal hyperplane to separate classes.
+
 5.**K-Nearest Neighbors (KNN)**: A non-parametric method that classifies based on the majority class of the nearest neighbors.
 ## Model Evaluation:
 
@@ -75,6 +79,8 @@ The project also includes visualizations to explore the loan default dataset and
 4.**Pie Chart for Loan Classification**: To illustrate the classification of loans into creditworthy and non-creditworthy categories.
 
 5.**Scatter Plots**: To explore relationships between pairs of numerical variables.
+
 6.**Correlation Heatmap**: To visualize the correlation between numerical features in the dataset.
+
 ## Conclusion
 The visualizations generated from this analysis provide valuable insights into the loan default dataset. They help in understanding the distribution of key features, the relationships between different variables, and the overall characteristics of the customer base. This analysis can serve as a foundation for further modeling and predictive analysis in the context of loan defaults.
